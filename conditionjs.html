@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas 3 conditionjs</title>
+</head>
+<body>
+    <p>conditionjs</p>
+    <p id="demo"></p>
+    
+    <script>
+        // value x dan y
+        const nilai = {
+            x: 5,
+            y: 2
+        }
+        //condition untuk menampilkan alert "hore saya bisa" dengan kondisi jika value x lebih besar dari y.
+        if (nilai.x > nilai.y) {
+            alert("Hore saya bisa!");
+        } else {
+            alert("coba lagi ya");
+        }
+        document.getElementById("demo").innerHTML = nilai();
+    </script>
+</body>
+</html>
